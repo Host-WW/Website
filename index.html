@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fff8f3">
+    <meta name="description" content="Thoughtful, delicious gluten-free favourites from Wheatless Wonders. Browse our menu and order fresh by WhatsApp.">
+    <title>Wheatless Wonders — Where gluten takes the backseat</title>
+    <link rel="icon" type="image/png" href="assets/wheatless-wonders-logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="announcement">
+      <span>Good food, no gluten worries.</span>
+      <a href="#menu">See what’s fresh <span aria-hidden="true">→</span></a>
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="Wheatless Wonders home">
+        <img src="assets/wheatless-wonders-logo.png" alt="">
+        <span>Wheatless <em>Wonders</em></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" aria-label="Open navigation">
+        <span></span><span></span>
+      </button>
+      <nav class="navigation" id="site-navigation" aria-label="Main navigation">
+        <a href="#story">Our story</a>
+        <a href="#menu">The menu</a>
+        <a href="#gluten-free">Gluten free, joyfully</a>
+        <a class="nav-order" href="https://wa.me/923334503603?text=Hi%20Wheatless%20Wonders!%20I%27d%20love%20to%20place%20an%20order." target="_blank" rel="noopener noreferrer">Order on WhatsApp <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> A little wonder in every bite</p>
+          <h1 id="hero-title">Where gluten<br>takes the <span>backseat.</span></h1>
+          <p class="hero-description">Big-hearted bakes, comfort-food favourites, and sweet little moments — all made gluten free, all made with love.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#menu">Explore the menu <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="https://wa.me/923334503603?text=Hi%20Wheatless%20Wonders!%20I%27d%20love%20to%20place%20an%20order." target="_blank" rel="noopener noreferrer">Order something lovely <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-note">
+            <span class="note-star" aria-hidden="true">✳</span>
+            <span><strong>100% gluten free</strong><br>Made for everyone at the table.</span>
+          </div>
+        </div>
+        <div class="hero-art">
+          <div class="hero-photo-wrap">
+            <img class="hero-photo" src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1100&q=85" alt="Freshly baked pizza topped with colourful vegetables" fetchpriority="high">
+            <div class="photo-caption"><span>Made with care</span><span>✳</span><span>Shared with love</span></div>
+          </div>
+          <div class="hero-sticker"><img src="assets/wheatless-wonders-logo.png" alt="Wheatless Wonders — 100% gluten free"></div>
+          <span class="hero-doodle doodle-one" aria-hidden="true">✳</span>
+          <span class="hero-doodle doodle-two" aria-hidden="true">♡</span>
+        </div>
+        <a class="scroll-hint" href="#story"><span></span> Scroll to savour</a>
+      </section>
+
+      <section class="intro-band" id="story">
+        <div class="intro-label"><span class="eyebrow">A recipe with a reason</span><span class="intro-squiggle" aria-hidden="true">〰</span></div>
+        <p>It started with a mother’s love — and a simple wish to make food everyone could enjoy. <em>That’s still the secret ingredient.</em></p>
+        <a class="text-link" href="#gluten-free">A little more about us <span aria-hidden="true">→</span></a>
+      </section>
+
+      <section class="menu-section section-pad" id="menu">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line"></span> A menu for the whole table</p>
+            <h2>Find your <span>happy place.</span></h2>
+          </div>
+          <p class="section-intro">From a warm naan to a just-because brownie, every favourite is made to be enjoyed without compromise.</p>
+        </div>
+
+        <div class="category-tabs" role="group" aria-label="Filter menu by category">
+          <button class="category-tab is-active" type="button" data-filter="all" aria-pressed="true">A little of everything</button>
+          <button class="category-tab" type="button" data-filter="pizza" aria-pressed="false">Pizza</button>
+          <button class="category-tab" type="button" data-filter="breads" aria-pressed="false">Breads & naans</button>
+          <button class="category-tab" type="button" data-filter="sweets" aria-pressed="false">Sweet tooth</button>
+        </div>
+
+        <div class="menu-grid">
+          <article class="menu-card menu-card-featured" data-category="pizza">
+            <div class="menu-image pizza-image">
+              <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=900&q=80" alt="Colourful gluten-free pizza" loading="lazy">
+              <span class="image-tag">A crowd favourite</span>
+            </div>
+            <div class="menu-card-content">
+              <div class="menu-title-row"><h3>Pizza, your way</h3><span class="menu-flower" aria-hidden="true">✳</span></div>
+              <p>Pick a flavour, pile on your favourite veg, and make it yours.</p>
+              <div class="menu-options"><span>Creamy peri peri</span><span>Creamy tikka</span><span>Pepperoni</span></div>
+              <div class="menu-price-row"><span>8″ <strong>Rs. 1,000</strong></span><span>11″ <strong>Rs. 2,200</strong></span></div>
+              <p class="menu-extra">Cheesy edge + Rs. 150 · Veg toppings: onions, capsicum, olives, mushrooms, jalapeño & corn</p>
+              <button class="order-link" type="button" data-order="Pizza — please share the flavour and size options.">Make it a pizza night <span aria-hidden="true">↗</span></button>
+            </div>
+          </article>
+
+          <article class="menu-card" data-category="breads">
+            <div class="menu-image bread-image">
+              <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=80" alt="Freshly baked artisan bread" loading="lazy">
+              <span class="image-tag">Fresh from the oven</span>
+            </div>
+            <div class="menu-card-content">
+              <div class="menu-title-row"><h3>Breads & naans</h3><span class="menu-flower" aria-hidden="true">♡</span></div>
+              <p>Soft, savoury staples to bring everyone back to the table.</p>
+              <ul class="price-list">
+                <li><span>Plain sandwich bread</span><strong>Rs. 900</strong></li>
+                <li><span>Multigrain bread</span><strong>Rs. 1,000</strong></li>
+                <li><span>Almond flour bread</span><strong>Rs. 1,200</strong></li>
+                <li><span>Burger buns (pack of 2)</span><strong>Rs. 450</strong></li>
+                <li><span>Chicken cheese naan</span><strong>Rs. 700</strong></li>
+                <li><span>Aloo naan</span><strong>Rs. 550</strong></li>
+                <li><span>Plain naan / kulcha</span><strong>Rs. 200</strong></li>
+                <li><span>Tortilla wraps</span><strong>Rs. 680</strong></li>
+                <li><span>Chapati pack</span><strong>Rs. 600</strong></li>
+              </ul>
+              <button class="order-link" type="button" data-order="Breads & naans — please share the available options.">Pick up a favourite <span aria-hidden="true">↗</span></button>
+            </div>
+          </article>
+
+          <article class="menu-card sweets-card" data-category="sweets">
+            <div class="menu-image sweets-image">
+              <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=80" alt="Chocolate cake topped with strawberries" loading="lazy">
+              <span class="image-tag">A little something sweet</span>
+            </div>
+            <div class="menu-card-content">
+              <div class="menu-title-row"><h3>Sweet tooth</h3><span class="menu-flower" aria-hidden="true">✳</span></div>
+              <p>For the “just one more bite” kind of days.</p>
+              <ul class="price-list">
+                <li><span>Brownie</span><strong>Rs. 450</strong></li>
+                <li><span>Chocolate chip cookie</span><strong>Rs. 300</strong></li>
+              </ul>
+              <div class="custom-sweets">
+                <span class="mini-eyebrow">Made for your moment</span>
+                <p>Custom cakes, frosted cupcakes, tiramisu boxes, donuts, banana breads, brownie cakes & gift baskets — made to order.</p>
+              </div>
+              <button class="order-link" type="button" data-order="Something sweet — I’m interested in brownies, cookies, or a custom treat.">Save room for dessert <span aria-hidden="true">↗</span></button>
+            </div>
+          </article>
+        </div>
+        <p class="menu-footnote">Prices in Pakistani rupees. Custom sweet orders are made to order — message us to plan yours.</p>
+      </section>
+
+      <section class="promise-section" id="gluten-free">
+        <div class="promise-photo">
+          <img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=1000&q=85" alt="A lovingly decorated cupcake" loading="lazy">
+          <span class="promise-stamp">A little<br>joy, baked<br>in.</span>
+        </div>
+        <div class="promise-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> Made with love, always</p>
+          <h2>Everyone deserves<br>a seat at the <span>table.</span></h2>
+          <p>What began as a mother’s effort to make better food for her children grew into a little mission: delicious, thoughtful food for the celiac community and everyone who loves a good bite.</p>
+          <p>Every recipe carries the same ingredient that started it all — a mother’s love.</p>
+          <a class="button button-outline" href="https://wa.me/923334503603?text=Hi%20Wheatless%20Wonders!%20I%27d%20love%20to%20ask%20about%20your%20gluten-free%20menu." target="_blank" rel="noopener noreferrer">Come say hello <span aria-hidden="true">↗</span></a>
+          <div class="promise-flourish" aria-hidden="true">Made for sharing <span>♡</span></div>
+        </div>
+      </section>
+
+      <section class="order-banner">
+        <div class="banner-sparkle" aria-hidden="true">✳</div>
+        <p class="eyebrow">Your next favourite is one message away</p>
+        <h2>Good things are<br><em>worth sharing.</em></h2>
+        <p>Tell us what you’re craving. We’ll take it from there.</p>
+        <a class="button button-light" href="https://wa.me/923334503603?text=Hi%20Wheatless%20Wonders!%20I%27d%20love%20to%20place%20an%20order." target="_blank" rel="noopener noreferrer">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20.5 11.7a8.5 8.5 0 0 1-12.6 7.4L3 20.3l1.2-4.7a8.5 8.5 0 1 1 16.3-3.9Zm-8.4-6.3a6.3 6.3 0 0 0-5.4 9.6l.3.5-.7 2.7 2.8-.7.5.3a6.3 6.3 0 1 0 2.5-12.4Zm3.6 9.1c-.2-.1-1.2-.6-1.4-.6-.2-.1-.3-.1-.5.1s-.5.6-.7.7c-.1.2-.3.2-.5.1-.2-.1-.9-.3-1.7-1-.6-.5-1-1.2-1.1-1.4-.1-.2 0-.3.1-.4l.3-.4.2-.4c.1-.1 0-.3 0-.4l-.6-1.5c-.2-.4-.4-.3-.5-.3h-.4c-.1 0-.4.1-.6.3-.2.2-.8.8-.8 1.8s.8 2.1.9 2.2c.1.2 1.6 2.4 3.8 3.3.5.2.9.3 1.2.4.5.2 1 .1 1.4.1.4-.1 1.2-.5 1.3-1 .2-.5.2-.9.1-1-.1-.1-.2-.2-.4-.3Z"/></svg>
+          Order on WhatsApp <span aria-hidden="true">↗</span>
+        </a>
+        <span class="banner-contact">Custom orders? Call or WhatsApp <a href="tel:+923334503603">0333 450 3603</a></span>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#" aria-label="Wheatless Wonders home">
+        <img src="assets/wheatless-wonders-logo.png" alt="">
+        <span>Wheatless <em>Wonders</em></span>
+      </a>
+      <p>Where gluten takes the backseat.<br>Made with love, shared with joy.</p>
+      <div class="footer-location">
+        <span class="footer-label">Come find us</span>
+        <a href="https://www.google.com/maps/search/?api=1&query=111%20G%20Block%2C%20Commercial%20Market%2C%20G%20Sector%2C%20DHA%20Phase%201%2C%20Lahore" target="_blank" rel="noopener noreferrer">111 G Block, Commercial Market,<br>G Sector, DHA Phase 1, Lahore ↗</a>
+        <a href="tel:+923334503603">0333 450 3603</a>
+      </div>
+      <div class="footer-links"><a href="#menu">The menu</a><a href="#story">Our story</a><a href="https://wa.me/923334503603?text=Hi%20Wheatless%20Wonders!" target="_blank" rel="noopener noreferrer">WhatsApp us ↗</a></div>
+      <span class="copyright">© <span id="current-year"></span> Wheatless Wonders</span>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
